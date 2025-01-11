@@ -1,5 +1,5 @@
 // Complete the js code
-function Car(make: string, model: string) {
+function Car(make, model) {
 	this.make = make;
 	this.model = model;
 }
@@ -9,7 +9,7 @@ Car.prototype.getMakeModel = function(){
 };
 
 
-function SportsCar(make: string, model: string, topSpeed: number) {
+function SportsCar(make, model, topSpeed) {
 	Car.call(this, make, model);
 	this.topSpeed = topSpeed;
 }
