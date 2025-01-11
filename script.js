@@ -9,7 +9,7 @@ Car.prototype.getMakeModel = function(){
 };
 
 
-function SportsCar(make, model, topSpeed) {
+function SportsCar(make: string, model: string, topSpeed: number) {
 	Car.call(this, make, model);
 	this.topSpeed = topSpeed;
 }
